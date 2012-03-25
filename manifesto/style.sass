@@ -1,0 +1,58 @@
+body
+  font-family: "Helvetica Neue", Helvetica, Arial sans-serif
+  font-weight: bold
+
+.step
+  -webkit-transition: opacity 1s
+  -moz-transition: opacity 1s
+  -ms-transition: opacity 1s
+  -o-transition: opacity 1s
+  transition: opacity 1s
+
+  &:not(.active)
+    opacity: 0.3
+    
+  width: 900px
+  
+  img
+    display: block
+    float: left
+    
+  div
+    display: block
+    float: left
+    margin: 70px 0 0 20px
+    
+  h1, h2, h3
+    margin: 0
+    padding: 0
+    
+  h1
+    font-size: 4em
+    display: inline-block
+    
+  h2
+    font-size: 3em
+    
+  p
+    margin: 0
+    padding: 0
+    color: #999
+    font-size: 1.5em
+    
+  em
+    display: block
+    color: #999
+    font-size: .5em
+    font-style: normal
+    
+  &.active
+    color: black
+  &.team
+    color: red
+  &.tools
+    color: orange
+  &.profit
+    color: green
+  &.beliefs
+    color: blue
