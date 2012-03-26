@@ -1,3 +1,4 @@
 $ ->
 
   loadImpress(document, window)
+  
