@@ -13,8 +13,10 @@ body {
     opacity: 0.3; }
   .step img {
     display: block;
-    float: left; }
+    float: left;
+    width: 280px; }
   .step div {
+    width: 600px;
     display: block;
     float: left;
     margin: 70px 0 0 20px; }

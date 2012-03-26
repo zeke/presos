@@ -40,13 +40,13 @@
       #tools.step{'data-scale' => 3, 'data-x' => 3500}
         %h1 2. Tools
 
-      #heroku.step.tools{'data-x' => 2700, 'data-y' => 500, 'data-z' => 400, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 0}
+      #heroku.step.tools{'data-x' => 2900, 'data-y' => 500, 'data-z' => 400, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 0}
         %img{:src => "images/heroku.png"}
         %div
           %h2 Heroku
           %p Continuous Deployment in the Cloud
 
-      #mongo.step.tools{'data-x' => 3000, 'data-y' => 800, 'data-z' => -400, 'data-rotate-x' => 0, 'data-rotate-y' => 70, 'data-rotate-z' => 0}
+      #mongo.step.tools{'data-x' => 3000, 'data-y' => 800, 'data-z' => -400, 'data-rotate-x' => 0, 'data-rotate-y' => 50, 'data-rotate-z' => 0}
         %img{:src => "images/mongo.png"}
         %div
           %h2 MongoDB
@@ -76,54 +76,73 @@
           %h2 Phonegap
           %p A thin iOS wrapper around HTML5/Javascript apps
 
-
+      #github.step.tools{'data-x' => 3000, 'data-y' => 3000, 'data-z' => 0, 'data-rotate-x' => 0, 'data-rotate-y' => -80, 'data-rotate-z' => -10}
+        %img{:src => "images/github.png"}
+        %div
+          %h2 Github
+          %p Source Code, Documentation, and Project Management
 
       #profit.step{'data-scale' => 3, 'data-x' => 5000}
-        %h1 3. Business
+        %h1 3. Products
 
       #apis.step.profit{'data-x' => 4800, 'data-y' => 500, 'data-z' => 500, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 0}
         %img{:src => "images/apis.png"}
         %div
           %h2 Developer APIs
-          %p  Provide a clear pricing structure
+          %p Provide a clear pricing structure
 
-      #sponsorship.step.profit{'data-x' => 4200, 'data-y' => 1000, 'data-z' => 0, 'data-rotate-x' => 30, 'data-rotate-y' => 0, 'data-rotate-z' => 0}
+      #apps.step.profit{'data-x' => 4200, 'data-y' => 1000, 'data-z' => -300, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 10}
+        %img{:src => "images/apps.jpg"}
+        %div
+          %h2 Mobile Apps
+          %p
+            Some cost money.
+            Others are free but give us valuable data about user consumption patterns.
+            
+      #sponsorship.step.profit{'data-x' => 4200, 'data-y' => 1500, 'data-z' => 0, 'data-rotate-x' => 30, 'data-rotate-y' => 0, 'data-rotate-z' => 0}
         %img{:src => "images/sponsorship.jpg"}
         %div
           %h2 Own-a-Word
-          %p Highest-bidder logophilia on wordnik.com
-
-      #apps.step.profit{'data-x' => 4200, 'data-y' => 1500, 'data-z' => -300, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 10}
-        %img{:src => "images/apps.jpg"}
-        %div
-          %h2 Homemade Apps
-          %p Some for revenue, some for data acquisition
+          %p Ongoing highest-bidder auctioning for logophiliacs on wordnik.com
 
       #ads.step.profit{'data-x' => 4400, 'data-y' => 1800, 'data-z' => 400, 'data-rotate-x' => 0, 'data-rotate-y' => -10, 'data-rotate-z' => 0}
         %img{:src => "images/ads.jpg"}
         %div
           %h2 Ads
-          %p Custom high-brow ad packages for retailers
+          %p Custom-designed ad packages on wordnik.com.
 
 
+      #principles.step{'data-scale' => 3, 'data-x' => 6600}
+        %h1 4. Principles
 
-      #beliefs.step{'data-scale' => 3, 'data-x' => 6600}
-        %h1 4. Beliefs
-
-      #dependencies.step.beliefs{'data-x' => 6000, 'data-y' => 500, 'data-z' => -300, 'data-rotate-x' => 0, 'data-rotate-y' => 80, 'data-rotate-z' => 0}
-        %img{:src => "images/oss.png"}
+      #dependencies.step.principles{'data-x' => 6000, 'data-y' => 500, 'data-z' => 300, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 0}
+        -# %img{:src => "images/oss.png"}
         %div
-          %h2 Open it.
-          %p Transparency raises the bar on code quality.
+          %h2 Transparency
+          %p
+            Open source software promotes trust from users
+            and crowdsources the development effort to a willing constituency.
           
-      #github.step.beliefs{'data-x' => 6000, 'data-y' => 1000, 'data-z' => 0, 'data-rotate-x' => -10, 'data-rotate-y' => 70, 'data-rotate-z' => 0}
-        %img{:src => "images/github.png"}
+      #community.step.principles{'data-x' => 6000, 'data-y' => 1000, 'data-z' => 0, 'data-rotate-x' => 0, 'data-rotate-y' => 130, 'data-rotate-z' => 10}
+        -# %img{:src => "images/swagger.png"}
         %div
-          %h2 Fork it.
-          %p Open source code means free labor.
+          %h2 Community
+          %p
+            Giving end-users more control encourages their level of participation.
+            Continued development of Swagger and other open-source projects
+            earns us respect in the developer community.
 
-      #swagger.step.beliefs{'data-x' => 6000, 'data-y' => 1500, 'data-z' => -300, 'data-rotate-x' => 0, 'data-rotate-y' => 90, 'data-rotate-z' => -10}
-        %img{:src => "images/swagger.png"}
+      #agility.step.principles{'data-x' => 6000, 'data-y' => 1500, 'data-z' => -300, 'data-rotate-x' => 20, 'data-rotate-y' => 50, 'data-rotate-z' => -10}
         %div
-          %h2 Swagger.
-          %p Custom high-brow ad packages.
+          %h2 Agility
+          %p
+            We are a small passionate team with all the necessary skills,
+            free from the constraints of hierarchy, creative mediocrity, disorder, 
+            and dependency.
+
+      #passion.step.principles{'data-x' => 6000, 'data-y' => 2000, 'data-z' => 300, 'data-rotate-x' => 0, 'data-rotate-y' => -30, 'data-rotate-z' => -20}
+        %div
+          %h2 Passion
+          %p
+            We love the work we do.
+            We dream about it, talk to our families about it, and devote our weekends to it.
