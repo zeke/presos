@@ -1,0 +1,128 @@
+%html
+  %head
+    %script{:src => "http://code.jquery.com/jquery.min.js"}    
+    -# This fork of impress.js allows loading to be deferred..
+    %script{:src => "https://raw.github.com/zeke/impress.js/master/js/impress.js"}
+    %script{:src => "app.js"}
+    
+    %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}
+  %body
+
+    #impress
+
+      #wordnik.step{'data-scale' => 12, 'data-x' => -1000, 'data-y' => 0, 'data-z' => 0, 'data-rotate-x' => 0, 'data-rotate-y' => 0, 'data-rotate-z' => 0}
+        %img{:src => "images/wordnik.png"}
+        %div
+          %h2 Wordnik.
+          %p a manifesto
+        
+      #team.step{'data-scale' => 3, 'data-x' => 2000}
+        %h1 1. Team
+        
+      #erin.step.team{'data-x' => 1000, 'data-y' => 500, 'data-z' => 100, 'data-rotate-x' => 0, 'data-rotate-y' => -40, 'data-rotate-z' => -10}
+        %img{:src => "images/erin.jpg"}
+        %div
+          %h2 Erin McKean
+          %p Business
+
+      #kumanan.step.team{'data-x' => 1200, 'data-y' => 1000, 'data-z' => -300, 'data-rotate-x' => 0, 'data-rotate-y' => -110, 'data-rotate-z' => 20}
+        %img{:src => "images/kumanan.jpg"}
+        %div
+          %h2 Kumanan Rajamanikkam 
+          %p Backend
+          
+      #zeke.step.team{'data-x' => 1200, 'data-y' => 1800, 'data-z' => 300, 'data-rotate-x' => -30, 'data-rotate-y' => -80, 'data-rotate-z' => 0}
+        %img{:src => "images/zeke.jpg"}
+        %div
+          %h2 Zeke Sikelianos
+          %p Frontend
+          
+      #tools.step{'data-scale' => 3, 'data-x' => 3500}
+        %h1 2. Tools
+
+      #heroku.step.tools{'data-x' => 2700, 'data-y' => 500, 'data-z' => 400, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 0}
+        %img{:src => "images/heroku.png"}
+        %div
+          %h2 Heroku
+          %p Continuous Deployment in the Cloud
+
+      #mongo.step.tools{'data-x' => 3000, 'data-y' => 800, 'data-z' => -400, 'data-rotate-x' => 0, 'data-rotate-y' => 70, 'data-rotate-z' => 0}
+        %img{:src => "images/mongo.png"}
+        %div
+          %h2 MongoDB
+          %p Big data with a Javascript Query Syntax
+
+      #node.step.tools{'data-x' => 2600, 'data-y' => 1200, 'data-z' => 0, 'data-rotate-x' => 0, 'data-rotate-y' => -30, 'data-rotate-z' => 10}
+        %img{:src => "images/chrome.jpg"}
+        %div
+          %h2 Node.js
+          %p Shared client/server application logic
+
+      #derby.step.tools{'data-x' => 3000, 'data-y' => 1600, 'data-z' => 400, 'data-rotate-x' => 0, 'data-rotate-y' => 0, 'data-rotate-z' => 0}
+        %img{:src => "images/derby.jpg"}
+        %div
+          %h2 Derby.js
+          %p Crawler-friendly server-side rendering
+          
+      #html5.step.tools{'data-x' => 3000, 'data-y' => 2000, 'data-z' => 0, 'data-rotate-x' => 0, 'data-rotate-y' => -60, 'data-rotate-z' => 0}
+        %img{:src => "images/html5.png"}
+        %div
+          %h2 HTML 5
+          %p Standard technologies
+
+      #phonegap.step.tools{'data-x' => 3000, 'data-y' => 2500, 'data-z' => 300, 'data-rotate-x' => 0, 'data-rotate-y' => -40, 'data-rotate-z' => 10}
+        %img{:src => "images/iphone.jpg"}
+        %div
+          %h2 Phonegap
+          %p A thin iOS wrapper around HTML5/Javascript apps
+
+
+
+      #profit.step{'data-scale' => 3, 'data-x' => 5000}
+        %h1 3. Business
+
+      #apis.step.profit{'data-x' => 4800, 'data-y' => 500, 'data-z' => 500, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 0}
+        %img{:src => "images/apis.png"}
+        %div
+          %h2 Developer APIs
+          %p  Provide a clear pricing structure
+
+      #sponsorship.step.profit{'data-x' => 4200, 'data-y' => 1000, 'data-z' => 0, 'data-rotate-x' => 30, 'data-rotate-y' => 0, 'data-rotate-z' => 0}
+        %img{:src => "images/sponsorship.jpg"}
+        %div
+          %h2 Own-a-Word
+          %p Highest-bidder logophilia on wordnik.com
+
+      #apps.step.profit{'data-x' => 4200, 'data-y' => 1500, 'data-z' => -300, 'data-rotate-x' => 0, 'data-rotate-y' => 40, 'data-rotate-z' => 10}
+        %img{:src => "images/apps.jpg"}
+        %div
+          %h2 Homemade Apps
+          %p Some for revenue, some for data acquisition
+
+      #ads.step.profit{'data-x' => 4400, 'data-y' => 1800, 'data-z' => 400, 'data-rotate-x' => 0, 'data-rotate-y' => -10, 'data-rotate-z' => 0}
+        %img{:src => "images/ads.jpg"}
+        %div
+          %h2 Ads
+          %p Custom high-brow ad packages for retailers
+
+
+      #beliefs.step{'data-scale' => 3, 'data-x' => 6600}
+        %h1 4. Beliefs
+
+      #dependencies.step.beliefs{'data-x' => 6000, 'data-y' => 500, 'data-z' => -300, 'data-rotate-x' => 0, 'data-rotate-y' => 80, 'data-rotate-z' => 0}
+        %img{:src => "images/oss.png"}
+        %div
+          %h2 Open it.
+          %p Transparency raises the bar on code quality.
+          
+      #github.step.beliefs{'data-x' => 6000, 'data-y' => 1000, 'data-z' => 0, 'data-rotate-x' => -10, 'data-rotate-y' => 70, 'data-rotate-z' => 0}
+        %img{:src => "images/github.png"}
+        %div
+          %h2 Fork it.
+          %p Open source code means free labor.
+
+      #swagger.step.beliefs{'data-x' => 6000, 'data-y' => 1500, 'data-z' => -300, 'data-rotate-x' => 0, 'data-rotate-y' => 90, 'data-rotate-z' => -10}
+        %img{:src => "images/swagger.png"}
+        %div
+          %h2 Swagger.
+          %p Custom high-brow ad packages.

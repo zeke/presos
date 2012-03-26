@@ -1,0 +1,3 @@
+$ ->
+
+  loadImpress(document, window)

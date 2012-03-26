@@ -1,0 +1,48 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-weight: bold; }
+
+.step {
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  width: 900px; }
+  .step:not(.active) {
+    opacity: 0.3; }
+  .step img {
+    display: block;
+    float: left; }
+  .step div {
+    display: block;
+    float: left;
+    margin: 70px 0 0 20px; }
+  .step h1, .step h2, .step h3 {
+    margin: 0;
+    padding: 0; }
+  .step h1 {
+    font-size: 4em;
+    display: inline-block; }
+  .step h2 {
+    font-size: 3em; }
+  .step p {
+    margin: 0;
+    padding: 0;
+    color: #999999;
+    font-size: 1.5em; }
+  .step em {
+    display: block;
+    color: #999999;
+    font-size: 0.5em;
+    font-style: normal; }
+  .step.active {
+    color: black; }
+  .step.team {
+    color: red; }
+  .step.tools {
+    color: orange; }
+  .step.profit {
+    color: green; }
+  .step.beliefs {
+    color: blue; }
