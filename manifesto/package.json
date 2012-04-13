@@ -1,0 +1,19 @@
+{
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "name": "manifesto",
+  "description": "An application skeleton with haml, sass, and coffee.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/zeke/manifesto",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zeke/manifesto.git"
+  },
+  "scripts": {
+    "test": "cake test"
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
